@@ -1,3 +1,5 @@
+Starting note: this project is based on my previous project "flgin", improving and building further on its foundations.
+
 -----------------------
 -- Engine Features --
 -----------------------
