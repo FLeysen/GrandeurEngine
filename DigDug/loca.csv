@@ -1,0 +1,27 @@
+key;en-uk;nl-be
+dataPath;../Data/;../Data/
+fontDefault;Lingua.otf;Lingua.otf
+stringAssignment;Programming 4 Assignment;Programmeren 4 Opdracht
+stringGameName;DigDug;GraafGroef
+stringP1;Player 1:;Speler 1:
+stringP2;Player 2:;Speler 2:
+texBg;background.jpg;background.jpg
+texGameBg;backgroundSprite.png;backgroundsprite.png
+texLogo;logo.png;logo.png
+texPlayer;PlayerIdle.png;PlayerIdle.png
+texPlayerMoving;PlayerMoving.png;PlayerMoving.png
+texPlayerDeath;PlayerDeath.png;PlayerDeath.png
+texButton;ButtonRegular.png;ButtonRegular.png
+texButtonSelected;ButtonSelected.png;ButtonSelected.png
+texLives;FourHearts.png;FourHearts.png
+texRock;Rock.png;Rock.png
+texDirt0;YellowDirt.png;YellowDirt.png
+texDirt1;BrownDirt.png;BrownDirt.png
+texDirt2;RedDirt.png;RedDirt.png
+texDirt3;DarkRedDirt.png;DarkRedDirt.png
+texPump;Pump.png;Pump.png
+texFire;FygarFire.png;FygarFire.png
+texFygar;FygarMove.png;FygarMove.png
+texFygarBreathe;FygarBreathe.png;FygarBreathe.png
+texPooka;PookaMove.png;PookaMove.png
+texPookaGhost;PookaGhost.png;PookaGhost.png

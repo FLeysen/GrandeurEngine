@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="States">
+      <UniqueIdentifier>{2e1b718e-43c2-444f-8e49-3919127e9435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Commands">
+      <UniqueIdentifier>{056d2820-0c23-43a4-a01f-6894615531d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Observers">
+      <UniqueIdentifier>{d167883f-ef0e-482a-a1f9-b9de7801fc6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Prefabs">
+      <UniqueIdentifier>{fbf84da1-0278-4bad-b8d1-0f28c166d154}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controllers">
+      <UniqueIdentifier>{587a91ac-1676-4f96-83b6-f2323ef05a2c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="DigDugStates.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="DigDugCommands.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="LivesObserver.h">
+      <Filter>Observers</Filter>
+    </ClInclude>
+    <ClInclude Include="ObserverEvents.h">
+      <Filter>Observers</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreObserver.h">
+      <Filter>Observers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverObserver.h">
+      <Filter>Observers</Filter>
+    </ClInclude>
+    <ClInclude Include="RockStates.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Rock.h">
+      <Filter>Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="FygarCommands.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="FygarStates.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Fygar.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="NPCFygar.h">
+      <Filter>Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="NextLevelObserver.h">
+      <Filter>Observers</Filter>
+    </ClInclude>
+    <ClInclude Include="FygarController.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="PookaCommands.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="PookaController.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Pooka.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="PookaStates.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="NPCPooka.h">
+      <Filter>Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="DigDug.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="DigDugStates.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="DigDugCommands.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="LivesObserver.cpp">
+      <Filter>Observers</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreObserver.cpp">
+      <Filter>Observers</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverObserver.cpp">
+      <Filter>Observers</Filter>
+    </ClCompile>
+    <ClCompile Include="RockStates.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Rock.cpp">
+      <Filter>Prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="FygarCommands.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="FygarStates.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Fygar.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="NPCFygar.cpp">
+      <Filter>Prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="NextLevelObserver.cpp">
+      <Filter>Observers</Filter>
+    </ClCompile>
+    <ClCompile Include="FygarController.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="PookaCommands.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="PookaController.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Pooka.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="PookaStates.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="NPCPooka.cpp">
+      <Filter>Prefabs</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
